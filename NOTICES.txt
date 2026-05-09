@@ -1,0 +1,105 @@
+NaviPlay — Third-Party Notices
+================================
+
+NaviPlay is a Navidrome / Subsonic-compatible music player for Android tablets
+and Android TV.
+
+Copyright (c) 2024-2026 Matt Dye. All rights reserved.
+
+-------------------------------------------------------------------------------
+This application makes use of the following open-source software:
+-------------------------------------------------------------------------------
+
+1. Navidrome
+   Website : https://www.navidrome.org
+   Licence : GNU General Public License v3.0 (GPL-3.0)
+   NaviPlay connects to a Navidrome media server via the Subsonic REST API.
+   Navidrome is developed and maintained by the Navidrome project contributors.
+
+2. Subsonic REST API
+   Website : http://www.subsonic.org
+   Navidrome and NaviPlay implement the Subsonic REST API specification
+   originally created by Sindre Mehus.
+
+3. AndroidX Media3 (ExoPlayer)
+   Copyright (c) Google LLC
+   Website : https://developer.android.com/media/media3
+   Licence : Apache License, Version 2.0
+   Used for audio playback and media session management.
+
+4. Jetpack Compose
+   Copyright (c) Google LLC
+   Website : https://developer.android.com/jetpack/compose
+   Licence : Apache License, Version 2.0
+   Used for building the user interface on phones, tablets, and Android TV.
+
+5. Retrofit
+   Copyright (c) Square, Inc.
+   Website : https://square.github.io/retrofit/
+   Licence : Apache License, Version 2.0
+   Used for HTTP communication with the Navidrome server.
+
+6. OkHttp
+   Copyright (c) Square, Inc.
+   Website : https://square.github.io/okhttp/
+   Licence : Apache License, Version 2.0
+   Used as the HTTP client underlying Retrofit.
+
+7. Gson
+   Copyright (c) Google LLC
+   Website : https://github.com/google/gson
+   Licence : Apache License, Version 2.0
+   Used for JSON serialisation and deserialisation of Subsonic API responses.
+
+8. Coil (Coroutine Image Loader)
+   Copyright (c) 2024 Coil Contributors
+   Website : https://coil-kt.github.io/coil/
+   Licence : Apache License, Version 2.0
+   Used for loading and caching album artwork.
+
+9. Kotlin
+   Copyright (c) JetBrains s.r.o. and Kotlin Programming Language contributors
+   Website : https://kotlinlang.org
+   Licence : Apache License, Version 2.0
+   The application is written entirely in Kotlin.
+
+10. AndroidX Libraries (Core, Lifecycle, Navigation, DataStore, AppCompat)
+    Copyright (c) Google LLC
+    Website : https://developer.android.com/jetpack/androidx
+    Licence : Apache License, Version 2.0
+    Various Jetpack libraries used for navigation, preferences storage,
+    lifecycle management, and backward compatibility.
+
+11. Material Design Icons (Extended)
+    Copyright (c) Google LLC
+    Website : https://fonts.google.com/icons
+    Licence : Apache License, Version 2.0
+    Icons used throughout the application UI.
+
+-------------------------------------------------------------------------------
+Apache License, Version 2.0 (full text)
+-------------------------------------------------------------------------------
+http://www.apache.org/licenses/LICENSE-2.0
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+-------------------------------------------------------------------------------
+GNU General Public License v3.0 (GPL-3.0) — reference
+-------------------------------------------------------------------------------
+https://www.gnu.org/licenses/gpl-3.0.html
+
+NaviPlay connects to Navidrome over the network but does not incorporate
+Navidrome's GPL-licensed source code. The GPL's copyleft provisions are
+therefore not triggered by this use.
+
+-------------------------------------------------------------------------------
